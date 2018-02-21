@@ -515,7 +515,7 @@ export default {
 				// 图片像素不达标
 				if (nWidth < width || nHeight < height) {
 					that.hasError = true;
-					that.errorMsg = lang.error.lowestPx + width + '*' + height;
+					that.errorMsg = lang.error.lowestPx;
 					return false;
 				}
 				if (ratio > nRatio) {
